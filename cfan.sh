@@ -11,4 +11,4 @@ declare -A codes=(
 [1, high]="101101101101101100101100100100100100100"
 )
 echo "code: ${codes[$1, $2]}"
-#sudo sendook -f 303875000 -0 333 -1 333 -r 2 -p 10000  ${codes[$1, $2]}
+sudo sendook -f 303875000 -0 333 -1 333 -r 2 -p 10000  ${codes[$1, $2]}
